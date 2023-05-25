@@ -3,6 +3,7 @@ beforeEach(function () {
         .then(example => {
             this.example = example;
         })
+        cy.viewport(1440, 900)
 })
 
 it('Webapp deve estar online', function(){
